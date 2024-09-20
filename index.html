@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Software Developer Portfolio</title>
+    <style>
+        :root {
+            --dark-purple: #2c1e4a;
+            --light-gray: #f0f0f0;
+            --medium-gray: #a0a0a0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-gray);
+            color: #333;
+        }
+        nav {
+            background-color: var(--dark-purple);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            padding: 15px 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        header, main, footer {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            background-color: var(--dark-purple);
+            color: #fff;
+            text-align: center;
+            padding-top: 80px;
+        }
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+        .skills, .projects {
+            margin-bottom: 40px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .project {
+            margin-bottom: 30px;
+        }
+        .video-placeholder, .image-placeholder {
+            background-color: var(--medium-gray);
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: var(--dark-purple);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <h1>Your Name</h1>
+        <p>Software Developer | Game Developer | 3D Artist</p>
+    </header>
+
+    <main>
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Delphi (Primary focus)</li>
+                <li>Game Development</li>
+                <li>3D Modeling and Animation</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Delphi Application</h3>
+                <div class="video-placeholder">Video Placeholder</div>
+                <p>Description of your Delphi project...</p>
+            </div>
+
+            <div class="project">
+                <h3>Project 2: Game Development</h3>
+                <div class="image-placeholder">Image Placeholder</div>
+                <p>Description of your game project...</p>
+            </div>
+
+            <div class="project">
+                <h3>Project 3: 3D Artwork</h3>
+                <div class="image-placeholder">Image Placeholder</div>
+                <p>Description of your 3D art project...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
